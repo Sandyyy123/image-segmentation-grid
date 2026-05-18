@@ -1,0 +1,10 @@
+opencv-python>=4.8.0
+numpy>=1.24.0
+svgwrite>=1.4.3
+ezdxf>=1.1.0
+
+# For SAM (optional — GrabCut fallback works without these)
+# torch>=2.0.0
+# torchvision>=0.15.0
+# segment-anything @ git+https://github.com/facebookresearch/segment-anything.git
+# Download SAM checkpoint: sam_vit_h_4b8939.pth from https://github.com/facebookresearch/segment-anything#model-checkpoints
